@@ -1,0 +1,178 @@
+{
+    "banner1":{
+        "h2":"Experience the beauty of the East with us!",
+        "h1":"China",
+        "population":"Population:",
+        "territory":"Territory:",
+        "avgPrice":"AVG Price:"
+    },
+    "banner2":{
+        "h2":"Take a Glimpse Into The Beautiful City Of:",
+        "h1":"Guanchjou ",
+        "population":"Population:",
+        "territory":"Territory:",
+        "avgPrice":"AVG Price:"
+    },
+    "banner3":{
+        "h2":"Take a Glimpse Into The Beautiful City Of:",
+        "h1":"Nanjing",
+        "population":"Population:",
+        "territory":"Territory:",
+        "avgPrice":"AVG Price:"
+    },
+    "banner4":{
+        "h2":"Take a Glimpse Into The Beautiful City Of:",
+        "h1":"Sharm-El-Sheikh",
+        "population":"Population:",
+        "territory":"Territory:",
+        "avgPrice":"AVG Price:"
+    },
+    "nav":{
+        "home":"Home",
+        "about":"About",
+        "tours":"Tours",
+        "contact":"Contact"
+    },
+    "button":{
+        "explore":"Explore More",
+        "go":"Contact us",
+        "reservation":{
+            "1":"Make A Reservation",
+            "2":"Make A Reservation Now"
+        },
+        "discover":"Discover More",
+        "book":"Book Yours Now",
+        "direction":"Need Directions ?"
+    },
+    "weekly":{
+        "h2":"Top 10 Beautiful Destinations for Unforgettable Travels",
+        "p":"Every week, new opportunities and unexpected adventures await you! Each city reveals its hidden beauty, offering you new adventures. Feel like you are part of these wonders!"
+    },
+    "weeklyCard":{
+        "h5":"Deal Includes:",
+        "p1":"5 Days Trip Hotel Included",
+        "p2":"Airplane Bill Included",
+        "p3":"Daily Places Visit"
+    },
+    "visa":{
+        "h2":"We offer exclusive trips to these destinations!",
+        "p":"We organize comfortable and safe trips to Chinese cities just for you!"
+    },
+    "visaCard":{
+        "h5":"Benefits of our Visa Support service:",
+        "p1":"Best Prices",
+        "p2":"Short Processing Time",
+        "p3":"Trustworthy Assistance"
+    },
+    "country":{
+        "usa":" Сиань",
+        "england":"Chendu",
+        "canada":" Zhangjiajie",
+        "europe":"Shenzhen",
+        "kuala":"Kuala Lumpur",
+        "japan":"Hainan ",
+        "oman":"Chandun",
+        "saudia":"The Great Wall of China",
+        "india":"Pekin",
+        "china":"Beijing",
+        "hong":"Gong Kong"
+    },
+    "checks":{
+        "ins":"Check Ins",
+        "person":"person"
+    },
+    "destination":{
+        "h2":"Find Tickets With us Easily and at a Low Price",
+        "p":"Find the best deals on railway and airplane tickets in each city, carefully selected for you."
+    },
+    "destinationCard":{
+        "1":{
+            "title":"Cheap Railway Tickets With Us",
+            "subtitle":"Whole world",
+            "parag":"Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network."
+        },
+        "2":{
+            "title":"Discover Exciting Air Travel Deals",
+            "subtitle":"Global Destinations",
+            "parag":"Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network."
+        }
+    },
+    "visit":{
+        "h2":"Interesting facts about China",
+        "p":"China has a unique garden culture and history. In this section, we will provide you with interesting information."
+    },
+    "visitCard":{
+        "mil":"M",
+        "km":"km",
+		"fakt1": "Tea culture",
+        "fakt2": "The Middle Kingdom",
+        "fakt3": "Chinese cuisine",
+        "fakt4": "The homeland of pandas",
+        "1":{
+			"subtitle": "Chinese Tea Culture",
+			"parag": "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit."
+		  },
+        "2":{
+			"subtitle": "China, The Middle Kingdom",
+			"parag": "(In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth."
+		},
+        "3":{
+			"subtitle": "The Diversity of Chinese Cuisine",
+			"parag": "Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck."
+		},
+
+        "4":{
+			"subtitle": "Pandas – A Diplomatic Symbol of China",
+			"parag": "Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries."
+		}
+    },
+    "reservation":{
+        "h4":"Book Prefered Deal Here",
+        "h2":"Make Your Reservation"
+    },
+    "info":{
+        "phone":"Make a Phone Call",
+        "email":"Contact Us via Email",
+        "location":"Visit Our Offices",
+        "place":"Yakkasaray District, 1 Borijar Street."
+    },
+    "form":{
+        "h2":{
+            "f":"Make Your",
+            "s":"Reservation",
+            "t":"Through This",
+            "fo":"Form"
+        },
+        "name":"Your Name",
+        "phone":"Your Phone Number",
+        "guests":"Number of Guests",
+        "date":"Check In Date",
+        "destination":"Choose Your Destination",
+        "visa":"Choose Your Visa Support",
+        "nameex":"Ex. John Smith",
+        "phoneex":"Ex. +998 99 999 99 90",
+        "guestsex":"Ex. 3 or 4 or 5",
+        "destinationex":"Ex.Beijing.",
+        "visaex":"Ex. China."
+    },
+    "footer":{
+		"h2": "Tourland guarantees quality and reliable service.",
+		"p": "You deserve the best, Tourland is the best choice!"
+	},
+    "best":{
+        "h2":"Best Locations",
+        "p":"Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
+    },
+    "formsent":{
+        "success":"Sent Successfully",
+        "error":"Could not send. Please try again"
+    },
+	"modal": {
+    "titel": "Please fill out this form.",
+    "ism": "Your name",
+    "famila": "Your surname",
+    "tel": "Your phone number",
+    "telegram": "Your Telegram username",
+    "yubor": "Submit"
+  }
+}

@@ -1,0 +1,180 @@
+{
+    "banner1":{
+        "h2":"Sharqning go'zalliklarini biz bilan birgalikda his eting!",
+        "h1":"Xitoy",
+        "population":"Aholisi:",
+        "territory":"Hududi:",
+        "avgPrice":"O'rtacha narx:"
+    },
+    "banner2":{
+        "h2":"Sharqning go'zalliklarini biz bilan birgalikda his eting!:",
+        "h1":"Guanchjou",
+        "population":"Aholisi:",
+        "territory":"Hududi:",
+        "avgPrice":"O'rtacha narx:"
+    },
+    "banner3":{
+        "h2":"Sharqning go'zalliklarini biz bilan birgalikda his eting!",
+        "h1":"Nankin",
+        "population":"Aholisi:",
+        "territory":"Hududi:",
+        "avgPrice":"O'rtacha narx:"
+    },
+    "banner4":{
+        "h2":"Sharqning go'zalliklarini biz bilan birgalikda his eting!",
+        "h1":"Sharm-El-Sheikh",
+        "population":"Aholisi:",
+        "territory":"Hududi:",
+        "avgPrice":"O'rtacha narx:"
+    },
+    "nav":{
+        "home":"Bosh Sahifa",
+        "about":"Biz Haqimizda",
+        "tours":"Turlar",
+        "contact":"Kontaktlar"
+    },
+    "button":{
+        "explore":"Ko'proq Bilish",
+        "go":"Biz bilan bog'laning",
+        "reservation":{
+            "1":"Joy Band Qilish",
+            "2":"Band Qilish"
+        },
+        "discover":"Ko'proq Bilish",
+        "book":"Bog'lanish",
+        "direction":"Qiziqarlimi ?"
+    },
+    "weekly":{
+        "h2":"Unutilmas Sayohatlar Uchun Top 10 Go‘zal Maskan",
+        "p":"Sizni har hafta yangi imkoniyatlar va kutilmagan sarguzashtlar kutmoqda! Har bir shahar o‘zining maxfiy go‘zalliklarini ochib, sizga yangi sarguzashtlar sovg‘a qiladi. O‘zingizni shu mo‘jizalarning bir qismi deb his qiling!"
+    },
+    "weeklyCard":{
+        "h5":"Tur O'z Ichiga Oladi:",
+        "p1":"5 kunlik sayohat, Mehmonxona",
+        "p2":"Aviabilet",
+        "p3":"Eng yaxshi maznilar"
+    },
+    "visa":{
+        "h2":"Ushbu manzillarga eksklyuziv sayohatlar taklif qilamiz!",
+        "p":"Xitoy shaharlarga siz uchun qulay va xavfsiz sayohatlar tashkil etamiz!"
+    },
+    "visaCard":{
+        "h5":"Bizning xizmatlar o'z ichiga oladi:",
+        "p1":"Eng arzon narxlar",
+        "p2":"Tezkor ishlash vaqti",
+        "p3":"Ishonchli yordam"
+    },
+    "country":{
+        "usa":" Xi'an",
+        "england":"Chendu",
+        "canada":" Zhangjiajie",
+        "europe":"Shenzhen",
+        "kuala":"Kuala Lumpur",
+        "japan":"Hainan ",
+        "oman":"Makao",
+        "saudia":"Buyuk Xitoy devori",
+        "india":"Pekin",
+        "china":"Beijing",
+        "hong":"Gong Kong"
+    },
+    "checks":{
+        "ins":"Buyurtmalar",
+        "person":"kishi"
+    },
+    "destination":{
+        "h2":"Biz Bilan Chiptalarni Arzon va Oson Toping.",
+        "p":"Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping"
+    },
+    "destinationCard":{
+        "1":{
+            "title":"Temir Yo‘l Biletleri Biz Bilan",
+            "subtitle":"Butun dunyo bo'ylab",
+            "parag":"Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning."
+        },
+        "2":{
+            "title":"Aviabiletlar Biz Bilan Arzon",
+            "subtitle":"Jahon bo‘ylab Manzillar",
+            "parag":"Eng arzon, qulay, xavfsiz aviabiletlar biz bilan! Bizga bog'laning, biz sizga eng maqbul bo'ladigan aviabilerni topib beramiz"
+        }
+    },
+    "visit":{
+        "h2":"Xitoy Haqida Qiziqarli Faktlar",
+        "p":"Bilamizkiy, Xitoy o‘ziga xos bog‘ madaniyatiga va tarixiga ega. Biz sizga bu bo‘limda qiziqarli ma'lumotlarni taqdim etamiz."
+    },
+    "visitCard":{
+        "mil":"mln",
+        "km":"km",
+		"fakt1":"Choy madaniyati",
+		"fakt2":"Osmon osti mamlakati ",
+        "fakt3":"Xitoy oshxonasi",
+        "fakt4":"Pandalar vatani",
+        "1":{
+            "subtitle":"Xitoyning choy madaniyati",
+            "parag":"Xitoy choy madaniyati asrlar davomida shakllangan va dunyodagi eng qadimiy an'analardan biridir. Choy ichish Xitoy xalqining kundalik hayotining ajralmas qismiga aylangan bo‘lib, bu madaniyat nafaqat ichimlikni tayyorlash uslubini, balki sog‘liq va ruhiyatga bo‘lgan hurmatni ham aks ettiradi."
+        },
+        "2":{
+            "subtitle":"Xitoy Osmon osti mamlakati",
+            "parag":"(Xitoy tilida Tiānxià — 天下) tushunchasi Xitoy madaniyatida va tarixida muhim ahamiyatga ega. Bu qadimiy ibora Xitoyni va u bilan bog‘liq bo‘lgan dunyoqarashni tasvirlash uchun ishlatiladi. Osmon osti mamlakati tushunchasi Xitoy imperatorlik davrida shakllangan bo‘lib, Osmon (Tian) hukmronlik qiladigan joy sifatida ko‘rilgan va bu hukmronlik er yuzidagi barcha narsalarga taalluqli deb qaralgan."
+        },
+        "3":{
+            "subtitle":"Xitoy oshxonasining xilma-xilligi",
+            "parag":"Xitoy oshxonasi butun dunyoda mashhur bo‘lib, taomlarning xilma-xilligi bilan ajralib turadi. Har bir viloyat o‘ziga xos taomlari bilan tanilgan, masalan, Siçuan taomlari o‘tkir, Pekin esa Pekin o‘rdagi bilan mashhur"
+        },
+
+        "4":{
+            "subtitle":"Pandalar – Xitoyning diplomatik ramzi",
+            "parag":"Gigant pandalar Xitoy diplomatiyasida muhim rol o‘ynaydi. Xitoy o‘z pandalarini boshqa davlatlarga diplomatik munosabatlarni mustahkamlash maqsadida vaqtincha ijaraga berib kelgan. Bu panda diplomatiyasi deb ataladi va Xitoyning xalqaro hamkorlar bilan aloqalarini mustahkamlashda ishlatiladi. Ijaraga olingan pandalar dunyodagi turli hayvonot bog‘larida bo‘lib, ularning ko‘pini AQSh, Yaponiya, va Yevropa davlatlarida ko‘rish mumkin."
+        }
+    },
+    "reservation":{
+        "h4":"O'zingiz yoqtirganingizni tanlang",
+        "h2":"O'z joyingizni band qiling"
+    },
+    "info":{
+        "phone":"Telefon raqam",
+        "email":"Bizga email orqali bog'laning",
+        "location":"Ofisimizga tashrif buyuring",
+        "place":"Yakkasaroy tumani, Boʻrijar koʻchasi 1-uy"
+    },
+    "form":{
+        "h2":{
+            "f":"O'z",
+            "s":"joyingizni",
+            "t":"band",
+            "fo":"qiling"
+        },
+        "name":"Ismingiz",
+        "phone":"Telefon raqamingiz",
+        "guests":"Necha kishisiz",
+        "date":"Uchish sanasi",
+        "destination":"Manzilingizni tanlang",
+        "visa":"Visa turini tanlang",
+        "nameex":"Misol. Palonchi Palonchiyev",
+        "phoneex":"Misol. +998 99 999 99 90",
+        "guestsex":"Misol. 3 yoki 4 yoki 5",
+        "destinationex":"Misol. Pekin ",
+        "visaex":"Misol.Xitoy ."
+    },
+    "footer":{
+        "h2":"Tourland sifatli va ishonchli xizmatni kafolatlaydi.",
+        "p":"Siz eng yaxshisiga loyiqsiz, Tourlend — eng yaxshi tanlov!"
+    },
+    "best":{
+        "h2":"Eng Yaxshi Manzillar",
+        "p":"Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
+    },
+    "formsent":{
+        "success":"Muvaffaqiyatli yuborildi",
+        "error":"Yuborib bo'lmadi. Iltimos, yana bir bor urinib ko'ring"
+    },
+	"modal":{
+		"titel":"Iltimos, ushbu formani to'ldiring.",
+		"ism": "Ismingiz",
+		"famila":"Familyangiz",
+		"tel":"telefon ingiz",
+		"telegram ":"telegram useringiz",
+		"yubor":"Yuborish"
+	}
+	
+	
+}

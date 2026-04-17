@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+	height: 60px;
+	
+}
+
+.logos{
+	width: 100px;
+	height: 100px;
+	
+}
+.logoss{
+	width: 50px;
+	height: 50px;
+	
+}
+
+
+
+.navas{
+	background-color: rgb(28, 49, 97);
+}
+
+.tham {
+	position: relative;
+	display: inline-block;
+	width: 2rem; /* Adjust size as needed */
+	height: 2rem; /* Adjust size as needed */
+	cursor: pointer;
+  }
+  
+  .tham-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100
+  
+  }
+  .btncolor{
+	color:#01294c;
+  }
+
+  .swprimg{
+	border-radius: 18px ;
+	width: 320px;
+	height: 400px;
+	object-fit: cover;
+  }
+
+ 
+  
+  .btncolor {
+	position: relative;
+	z-index: 1;
+	color: white;
+	animation-name: animeCss;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+  }
+  
+  .btncolor::before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	/* background: linear-gradient(45deg, #ff0000, #ff9900, #ffff00, #00ff00, #00ffff); */
+	z-index: -1;
+	filter: blur(10px);
+	opacity: 0.75;
+	transition: opacity 0.3s ease-in-out;
+
+  }
+  @keyframes animeCss {
+	from {
+transform: scale(0.9);
+	  box-shadow: 5px 5px 5px #01294c;
+	}
+	
+	to {
+		transform: scale(1.3);
+
+	  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white;
+	}
+	
+  }
+  .btncolor:hover::before {
+	opacity: 1;
+	animation: glowing 2s infinite;
+  }
+  

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+.visa-swiper-slide{
+    min-width: 420px !important;
+}
+.weekly-swiper-slide{
+    min-width: 420px !important;
+	
+}
