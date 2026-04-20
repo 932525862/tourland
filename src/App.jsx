@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { ToastContainer } from 'react-toastify';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
+import Forma from './routes/Forma';
 import "react-toastify/dist/ReactToastify.css";
 import gift from "./assets/gif.gif"; // Yuklanish gif tasviri
 
@@ -18,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <Router>
       <ToastContainer />
       {loading ? (
         // Agar loading true bo'lsa, gif ko'rsatiladi
@@ -26,10 +28,12 @@ function App() {
           <img src={gift} alt="Loading..." />
         </div>
       ) : (
-        // loading false bo'lganda, Home komponenti ko'rsatiladi
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/forma" element={<Forma />} />
+        </Routes>
       )}
-    </>
+    </Router>
   );
 }
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Container from "../utils/Utils";
-import logo from "../assets/loggg.png";
+import logo from "../assets/loggg1.png";
 import Telegram from "../assets/telegram.png"; 
 import Insata from "../assets/instagram.png"; 
 import facebook from "../assets/facebook.png";
@@ -8,6 +8,7 @@ import i18next from "../language/i18next";
 import { useTranslation } from "react-i18next";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { ImCancelCircle } from "react-icons/im";
+import { Link } from "react-router-dom";
 import "./Alll.css";
 
 const Nav = () => {
@@ -25,24 +26,24 @@ const Nav = () => {
       <Container className="navas">
         <div className="flex items-center navbar">
           <div className="flex-1">
-            <a href="#">
+            <Link to="/">
               <img src={logo} alt="" className="logos" />
-            </a>
+            </Link>
           </div>
           <div className="lg:flex lg:gap-x-36 hidden">
             <ul className="flex gap-x-8">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   style={{ color: "rgb(28, 49, 97)" }}
                   className="hover:text-black transition-colors duration-300 text-xl"
                 >
                   {t("nav.home")}
-                </a>
+                </Link>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   style={{ color: "rgb(28, 49, 97)" }}
                   className="hover:text-black transition-colors duration-300 text-xl"
                 >
@@ -51,7 +52,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#tours"
                   style={{ color: "rgb(28, 49, 97)" }}
                   className="hover:text-black transition-colors duration-300 text-xl"
                 >
@@ -60,12 +61,21 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   style={{ color: "rgb(28, 49, 97)" }}
                   className="hover:text-black transition-colors duration-300 text-xl"
                 >
                   {t("nav.contact")}
                 </a>
+              </li>
+              <li>
+                <Link
+                  to="/forma"
+                  style={{ color: "rgb(28, 49, 97)" }}
+                  className="hover:text-black transition-colors duration-300 text-xl"
+                >
+                  Forma
+                </Link>
               </li>
             </ul>
             <div className="flex gap-x-3 items-center">
@@ -176,6 +186,17 @@ const Nav = () => {
                 >
                   {t("nav.contact")}
                 </a>
+              </li>
+              <li
+                onClick={() => setOpen(false)}
+                className="border-b-[1px] border-[#afafaf] w-full text-center pb-4"
+              >
+                <Link
+                  to="/forma"
+                  className="text-black hover:text-black transition-colors duration-300 text-lg"
+                >
+                  Forma
+                </Link>
               </li>
               <li
                 onClick={() => setOpen(false)}
