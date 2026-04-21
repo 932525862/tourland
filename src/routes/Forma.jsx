@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Sanoat from "../assets/sanoat.png"
+
 
 const Forma = () => {
   const [formData, setFormData] = useState({
