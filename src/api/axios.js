@@ -1,8 +1,15 @@
 import axios from "axios";
 
-const instance=axios.create({
-    baseURL:"https://api.telegram.org/bot",
-    timeout:10000
+// Local backend API instance
+const api = axios.create({
+    baseURL: import.meta.env.VITE_API_BASE_URL,
+    timeout: 10000
 });
 
-export { instance }
+// Telegram API instance
+const telegram = axios.create({
+    baseURL: "https://api.telegram.org/bot",
+    timeout: 10000
+});
+
+export { api, telegram };

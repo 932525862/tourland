@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import { telegram as telegramApi } from "../api/axios";
 
 
 const Forma = () => {
@@ -38,9 +39,8 @@ const Forma = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Telegram bot token and chat ID
-    const botToken = "8322069796:AAHh6HTXIst5qreGW-vJPEM46Y7l_GCKUW0";
-    const chatId = "-1003806144546";
+    const botToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN_CHINA;
+    const chatId = import.meta.env.VITE_TELEGRAM_CHAT_ID_CHINA;
     
     // Format the message
     const message = `
@@ -54,23 +54,14 @@ const Forma = () => {
     `;
     
     try {
-      // Send message to Telegram bot
-      const response = await fetch(
-        `https://api.telegram.org/bot${botToken}/sendMessage`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            chat_id: chatId,
-            text: message,
-            parse_mode: "HTML",
-          }),
-        }
-      );
+      // Send message to Telegram bot using centralized axios instance
+      const response = await telegramApi.post(`${botToken}/sendMessage`, {
+        chat_id: chatId,
+        text: message,
+        parse_mode: "HTML",
+      });
       
-      if (response.ok) {
+      if (response.status === 200) {
         setShowModal(true);
         setTimeout(() => {
           window.location.href = "https://t.me/tourland_uz";

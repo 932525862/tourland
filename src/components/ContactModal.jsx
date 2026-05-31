@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import useShareStore from '../Store/Store';
+import { telegram as telegramApi } from '../api/axios';
 
 const ContactModal = ({closeModal}) => {
   const { t } = useTranslation(); 
@@ -26,20 +27,13 @@ const ContactModal = ({closeModal}) => {
     Telegram user: ${telegram}
     `;
 
-    const token = '7551301306:AAEVOCGkYjK9NrUD4kWZFMra6VbyHf0hp5Q';
-    const chat_id = '-1002336918728'; 
-    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+    const token = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+    const chat_id = import.meta.env.VITE_TELEGRAM_CHAT_ID;
 
     try {
-      await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          chat_id: chat_id,
-          text: message,
-        }),
+      await telegramApi.post(`${token}/sendMessage`, {
+        chat_id: chat_id,
+        text: message,
       });
       alert('Information sent to Telegram!');
     } catch (error) {

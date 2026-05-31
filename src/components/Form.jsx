@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Container from '../utils/Utils'
 import {useForm} from "react-hook-form"
-import axios from 'axios'
+import { telegram as telegramApi } from '../api/axios'
 import {z} from "zod"
 import {zodResolver} from "@hookform/resolvers/zod"
 import spinner from "../assets/spinner.svg"
@@ -28,11 +28,13 @@ const Form = () => {
 
     const onSubmit=async ({name,number,guests,date,destination,visa})=>{
         try{
-            const token='7551301306:AAEVOCGkYjK9NrUD4kWZFMra6VbyHf0hp5Q'
-            const chat_id='-1002336918728'
-            const url=`https://api.telegram.org/bot${token}/sendMessage`
+            const token = import.meta.env.VITE_TELEGRAM_BOT_TOKEN
+            const chat_id = import.meta.env.VITE_TELEGRAM_CHAT_ID
             const message=`Name:${name}\n Phone Number:${number}\n Number of Guests:${guests}\n Date:${date}\n Destination:${destination}\n Visa Support:${visa}`
-            const res=await axios({url:url,method:"POST",data:{'chat_id':chat_id,'text':message}})
+            await telegramApi.post(`${token}/sendMessage`, {
+                chat_id: chat_id,
+                text: message
+            })
             reset()
             setSelectDestination("")
             setSelectGuests("")
@@ -40,9 +42,6 @@ const Form = () => {
             toast.success(t('formsent.success'))
         }
         catch{
-            // setError("root",{
-            //     message:"Could not send form, please try again"
-            // })
             toast.error(t('formsent.error'))
         }
     }
