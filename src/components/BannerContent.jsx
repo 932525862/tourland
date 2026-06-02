@@ -4,6 +4,7 @@ import "./Alll.css";
 import ContactModal from "./ContactModal"; 
 import useShareStore from '../Store/Store';
 
+
 const BannerContent = ({ h2_text, h1_text, population, territory, avgPrice }) => {
   const { t } = useTranslation();
   

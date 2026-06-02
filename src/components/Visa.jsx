@@ -12,7 +12,8 @@ import VisaCard from "./VisaCard";
 import { useTranslation } from "react-i18next";
 import ContactModal from "./ContactModal";
 import { api } from "../api/axios";
-import useShareStore from '../Store/Store';
+import useShareStore from "../Store/Store";
+
 
 const Visa = () => {
   const { t } = useTranslation();
