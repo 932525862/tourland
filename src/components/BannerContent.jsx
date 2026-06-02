@@ -8,7 +8,7 @@ const BannerContent = ({ h2_text, h1_text, population, territory, avgPrice }) =>
   const { t } = useTranslation();
   
   
-  const { isModal, setIsModal } = useShareStore(); // Correct usage of the hook
+  const {  setIsModal } = useShareStore(); // Correct usage of the hook
 
   const closeModal = () => {
     setIsModal(false); // Close modal when this function is called

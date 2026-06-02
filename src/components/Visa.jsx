@@ -2,13 +2,7 @@ import React, { useEffect } from "react";
 import Container from "../utils/Utils";
 import { Swiper, SwiperSlide } from "swiper/react";
 import xdevor1 from "../assets/ftoq.jpeg";
-import antalya from "../assets/koprik.webp";
-import dubai from "../assets/koprik2.webp";
-import sharm from "../assets/sharm-mini.jpg";
-import usa from "../assets/usa.jpg";
-import england from "../assets/englanda.jpg";
-import europe from "../assets/bannb.jpg";
-import canada from "../assets/canada.jpg";
+
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -18,6 +12,7 @@ import VisaCard from "./VisaCard";
 import { useTranslation } from "react-i18next";
 import ContactModal from "./ContactModal";
 import { api } from "../api/axios";
+import useShareStore from '../Store/Store';
 
 const Visa = () => {
   const { t } = useTranslation();
@@ -26,7 +21,16 @@ const Visa = () => {
 
   React.useEffect(() => {
     api.get("/api/tours")
-      .then(res => setTours(res.data))
+      .then(res => {
+        const responseData = res.data;
+        const toursData = Array.isArray(responseData)
+          ? responseData
+          : Array.isArray(responseData?.data)
+          ? responseData.data
+          : [];
+
+        setTours(toursData);
+      })
       .catch(err => console.error(err));
   }, []);
 
@@ -68,7 +72,7 @@ const Visa = () => {
                 slidesPerView: 3,
               },
             }}
-            spaceBetween={0}
+            spaceBetween={30}
             slidesPerView={3}
             loop={tours.length > 3}
             autoplay={{
@@ -83,7 +87,7 @@ const Visa = () => {
             modules={[Autoplay, Pagination, FreeMode]}
             className="h-[495px]"
           >
-            {tours.map((tour) => (
+            {Array.isArray(tours) && tours.map((tour) => (
               <SwiperSlide key={tour.id} className="visa-swiper-slide">
                 <div
                   className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
